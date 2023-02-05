@@ -1,0 +1,16 @@
+restful artitecture.. what is the restful arcticeture 
+portocol 
+...basic features 
+admin can register and login. 
+They should be able to do crud option 
+crud inventory 
+crud category
+crud admin user
+crud orders
+crud customer
+crud payment types
+
+
+
+//created
+s
