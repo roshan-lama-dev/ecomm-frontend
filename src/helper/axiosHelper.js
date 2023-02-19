@@ -24,3 +24,15 @@ export const verfiyAdminUser = async (obj) => {
     };
   }
 };
+
+export const fetchAdminLogin = async (obj) => {
+  try {
+    const { data } = await axios.post(adminAPI + "/login", obj);
+    return data;
+  } catch (error) {
+    return {
+      status: error,
+      message: erorr.message,
+    };
+  }
+};
